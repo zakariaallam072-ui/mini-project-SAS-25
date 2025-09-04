@@ -15,8 +15,8 @@ float calculer_moyenne(float note[],int nomber_etudient){
     float moyenne ;
     for(int i=0; i<nomber_etudient; i++){
        somme += note[i];
-       moyenne = somme/nomber_etudient;
     }
+    moyenne = somme/nomber_etudient;
     return moyenne ;
 }
 
